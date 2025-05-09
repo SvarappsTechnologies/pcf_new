@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="pcfarea2025" constructor="pdfmulti" version="0.0.1" display-name-key="pdfmulti" description-key="HTML to PDF Converter" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    
+    <property name="htmlInput" display-name-key="HTML Input" description-key="HTML content to be converted to PDF" of-type="Multiple" usage="bound" required="true" />
+    
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/pdfmulti.css" order="1" />
+    </resources>
+  </control>
+</manifest>

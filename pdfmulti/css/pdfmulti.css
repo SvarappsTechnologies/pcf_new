@@ -1,0 +1,34 @@
+.pdfmulti-container {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 129px;
+    height: 35px;
+    align-items: flex-start;
+}
+.pdfmulti-preview {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    min-height: 100px;
+    overflow: auto;
+}
+
+.pdfmulti-button {
+    padding: 8px 16px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.pdfmulti-button:hover {
+    background-color: #106ebe;
+}
+
+.pdfmulti-preview {
+    display: none;
+}
